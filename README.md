@@ -23,3 +23,13 @@ Crear una página html con dos inputs(filas y columnas) y un botón y un div de 
 >Si ponemos 8 se generará una grid de 3 x 3 con 8 elementos dentro y un hueco vacío al final
 >Si ponemos 20 se generará una grid de 5 x 4 completamente llena
 >Si ponemos 22 se generará una grid de 5 x 5 con tres huecos libres al final
+
+# Parte 3
+- Hacer un juego de búsqueda de parejas.
+- Habra una variable oculta en js que marque cuantos aciertos se han generado, cuando estos alcancen el número total de parejas se registrará en la parte inferior el número de casillas y los segundos que se tardó.
+- Cuando se haga click en una casilla esta mostrará su color y quedará visible, cuando se haga click en otra casilla se compararán sus colores:
+  - Si son iguales ambas casillas perderan el evento click y aumentarán el conteo de aciertos.
+  - Si son distintas mostrarán sus colores medio segundo y luego volveran a ponerse en blanco.
+- Ahora el campo de casillas aceptará un máximo de 50 y utilizará el siguiente array de elementos para mostrar sus colores:
+- Para decidir el color de las parejas se utilizará el método "Math.random()" dado en clase.
+> const colors = ["yellow","orange","red","blue","green","magenta","blueviolet","pink","maroon","lime","aqua","orange","olive","grey","gold","cyan","silver","purple","navy","teal","beige","darkslateblue","deeppink","fuchsia","salmon"];
